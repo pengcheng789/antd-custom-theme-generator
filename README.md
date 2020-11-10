@@ -1,5 +1,9 @@
 # Antd custom theme generator
 
+Forked from [emeks-studio/antd-custom-theme-generator](https://github.com/emeks-studio/antd-custom-theme-generator).
+
+Change: Modify the cmd path for `lessc` from `__dirname` to `process.cwd()`.
+
 A simple way to create an antd theme css file with zero configuration.
 
 [Ant Design](https://ant.design/) provides plenty of UI components, styled with [less](http://lesscss.org/). You can customize the default theme modifying less variable, to achive this you have multiple ways ([check the doc here](https://ant.design/docs/react/customize-theme)). The problem is that you don't have a simple way to create a static `css` file with zero configuration.

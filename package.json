@@ -1,6 +1,6 @@
 {
-  "name": "@emeks/antd-custom-theme-generator",
-  "version": "0.1.6",
+  "name": "@pengcheng789/antd-custom-theme-generator",
+  "version": "0.1.7",
   "peerDependencies": {
     "antd": "^4.3.5"
   },
@@ -18,17 +18,20 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emeks-studio/antd-custom-theme-generator.git"
+    "url": "git+https://github.com/pengcheng789/antd-custom-theme-generator.git"
   },
   "keywords": [
     "javascript",
     "react",
     "antd"
   ],
-  "author": "granujas",
+  "author": {
+    "name": "CAI Pengcheng",
+    "email": "CAI_Pengcheng@outlook.com"
+  },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/emeks-studio/antd-custom-theme-generator/issues"
+    "url": "https://github.com/pengcheng789/antd-custom-theme-generator/issues"
   },
-  "homepage": "https://github.com/emeks-studio/antd-custom-theme-generator#readme"
+  "homepage": "https://github.com/pengcheng789/antd-custom-theme-generator#readme"
 }

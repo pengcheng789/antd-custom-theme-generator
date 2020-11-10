@@ -59,7 +59,7 @@ exec(
       }
       exec(
         `node_modules/less/bin/lessc --js /tmp/generated-theme.less ${scriptVariables.generatedThemeFilePath}`,
-        { cwd: __dirname },
+        { cwd: process.cwd() },
         (error2, stdout, stderr) => {
           if (!error2) {
             if (verbose) {
