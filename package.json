@@ -1,6 +1,6 @@
 {
   "name": "@pengcheng789/antd-custom-theme-generator",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "peerDependencies": {
     "antd": "^4.3.5"
   },

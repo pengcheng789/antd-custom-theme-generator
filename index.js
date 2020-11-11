@@ -58,7 +58,7 @@ exec(
         );
       }
       exec(
-        `node_modules/less/bin/lessc --js /tmp/generated-theme.less ${scriptVariables.generatedThemeFilePath}`,
+        `node_modules/.bin/lessc --js /tmp/generated-theme.less ${scriptVariables.generatedThemeFilePath}`,
         { cwd: process.cwd() },
         (error2, stdout, stderr) => {
           if (!error2) {
